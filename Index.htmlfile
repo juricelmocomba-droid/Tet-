@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Campus Universitário</title>
+    <style>
+        /* --- CSS --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: 1773989979420.jpg;
+            text-align: center;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0;
+            width: 250px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+       
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UAN Campus Universitário</h1>
+</header>
+
+<section>
+<h2>Seja bem-vindo consute aqui todas as informações</h2>
+</section>
+<section>
+    <h2>Login</h2>
+    <form id="contatoForm">
+        <input type="text" id="nome" placeholder="Seu nome" required><br>
+        <input type="email" id="password" placeholder="Palavra-passe" required><br>
+        <button type="submit">Entrar</button>
+ <br>
+<p>Esqueceu a senha? <a href="                      
+  <p>Não tem conta? <a href="#">Registre-se</a></p>
+</form>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Universidade Agostinho Neto. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    // --- JavaScript ---
+
+    // Formulário
+    document.getElementById("contatoForm").addEventListener("submit", function(event){
+        event.preventDefault(); // Evita envio real
+        let nome = document.getElementById("nome").value;
+        alert("Obrigado, " + nome + "! Sua a conta está aberta .");
+       
+</script>
+
+</body>
+</html>
